@@ -3,6 +3,8 @@ import Name from "./components/Name";
 import StarRating from "./components/StarRating";
 import Profile from "./components/Profile";
 import Firecracker from "./components/Firecracker"
+import StatusPicker from './components/StatusPicker'
+import LanguagePicker from './components/LanguagePicker';
 
 export default function App() {
   const addresses = [
@@ -85,6 +87,10 @@ export default function App() {
         );
       })}
       <Firecracker />
+      <StatusPicker />
+      <br/>
+      <LanguagePicker />
+      
       {/* <Profile name="Dom Toretto" title="Racer" /> */}
     </div>
   )
